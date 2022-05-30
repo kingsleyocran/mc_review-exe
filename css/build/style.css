@@ -1,0 +1,422 @@
+/* general */
+body {
+  min-width: 1366;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+h5 {
+  padding: 10px 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+/* typography */
+.primary-font-family {
+  font-family: "Poppins", sans-serif;
+}
+
+.logo-font {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #6070ff;
+}
+
+.banner-header {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
+  color: #172b4d;
+}
+
+.header-text-1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.body-text-1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 52px;
+  font-weight: 300;
+  color: #344563;
+}
+
+.body-text-2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #344563;
+}
+
+.overline-text-1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+
+.overline-text-2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.head-text-1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #7f8cff;
+}
+
+.head-text-2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+}
+
+.sub-text-1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+}
+
+.sub-text-2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+}
+
+.button-text-1 {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  background-color: white;
+}
+
+/* colors */
+.primary-color {
+  color: #6070ff !important;
+}
+
+.secondary-color {
+  color: #172b4d;
+}
+
+.background-color {
+  background-color: #f7f7f9;
+}
+
+/* header */
+.nav-bar {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+  width: calc(100% - 40px);
+  display: flex;
+  padding-top: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  width: 100%;
+}
+
+.nav-bar li {
+  text-decoration: none;
+}
+
+.menu-icon {
+  color: #6070ff;
+  padding: 10px;
+  flex: 1;
+}
+
+.nav-logo {
+  flex: 3;
+}
+
+/* banner */
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  min-height: 100vh;
+  border-radius: 0 0 0 70px;
+}
+
+.banner-stack {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 0 70px 0 0;
+  width: calc(100% - 48px);
+  padding: 0 24px;
+  gap: 20px;
+}
+
+.banner-background {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+
+.banner-social-icon {
+  color: #172b4d;
+}
+
+.banner-socials {
+  display: flex;
+  margin: 0;
+}
+
+.banner-socials ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  padding: 0;
+  height: 0;
+  gap: 20px;
+}
+
+.vector1 {
+  position: absolute;
+  bottom: 20px;
+  right: 110px;
+}
+
+.vector2 {
+  position: absolute;
+  bottom: 100px;
+  right: 50px;
+}
+
+.vector3 {
+  position: absolute;
+  left: 0;
+  top: 70px;
+}
+
+.vector4 {
+  position: absolute;
+  top: 0;
+}
+
+.vector5 {
+  position: absolute;
+  height: 100px;
+  top: 65px;
+  right: 0;
+}
+
+.ellipse1 {
+  position: absolute;
+  bottom: 45px;
+  left: 50px;
+}
+
+.ellipse2 {
+  position: absolute;
+  top: 80px;
+  right: 100px;
+}
+
+/* body */
+.body-content-1 {
+  display: grid;
+  width: calc(100% - 48px);
+  padding: 114px 24px;
+  gap: 88px;
+}
+
+.works-card {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 12px;
+  padding: 16px;
+  background-color: white;
+  border-style: solid;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.work-card-overline ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  padding: 0;
+  height: 0;
+  gap: 10px;
+}
+
+.work-card-techstack {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.work-card-techstack ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  padding: 0;
+  height: 0;
+  gap: 10px;
+}
+
+.work-card-techstack li {
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+}
+
+.work-card-button {
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  padding: 12px;
+  margin: 12px 0;
+  transition-duration: 0.4s;
+}
+
+.work-card-button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.work-card-button:active {
+  background-color: #3842a3;
+  color: white;
+}
+
+.portfolio-images {
+  width: 100%;
+}
+
+.body-content-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-radius: 0 70px 0 0;
+  width: calc(100% - 48px);
+  padding: 114px 24px;
+  gap: 20px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.about-collapsible ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 0;
+  gap: 10px;
+}
+
+.about-collapsible-button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px 0;
+  background-color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.about-collapsible-content {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.about-collapsible-tools {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #f7f7f9;
+  padding: 9px;
+  border-radius: 8px;
+}
+
+.divider-1 {
+  border-top: 1px solid #dfe1e6;
+  border-radius: 5px;
+}
+
+.icon-rotate {
+  transform: rotate(90deg);
+}
+
+.about-content-2 {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+
+.border {
+  border: solid;
+}
+
+/* footer */
+
+/* Media Queries */

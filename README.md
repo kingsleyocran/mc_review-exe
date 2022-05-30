@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 
-# Portfolio Website Project
+# Product Landing Page Website Project
 
 > Professional Product Landing page using HTML and CSS.
 
